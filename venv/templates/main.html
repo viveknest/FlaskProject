@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Vivek's First Flask App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">-->
+<!--	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<header>
+
+	<div class="navbar-header">
+      <a class="navbar-brand" href="/">
+	  </a>
+    </div>
+
+</header>
+
+<body>
+
+<!--	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
+<!--	<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>-->
+<div class="center-on-page">
+    <form action="/classify" method="POST">
+
+      <div class="form-group">
+          <h2>Enter Text to classify </h2>
+<!--        <label>Input Text to classify</label>-->
+        <input type="text" class="form-control" id="input_text" name="input_text" placeholder="Enter your text">
+      </div>
+
+        <button type="submit" class="btn btn-primary">Classify</button>
+
+    </form>
+</div>
+</body>
+
+</html>
+
+<p>With Bootstrap Vivek Here</p>
