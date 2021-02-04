@@ -1,16 +1,26 @@
+<<<<<<< HEAD
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 Flask==1.1.2
 idna==2.10
+=======
+click==7.1.2
+Flask==1.1.2
+>>>>>>> githu/master
 itsdangerous==1.1.0
 Jinja2==2.11.3
 joblib==1.0.0
 MarkupSafe==1.1.1
 nltk==3.5
+<<<<<<< HEAD
 pickle-mixin==1.0.2
 regex==2020.11.13
 requests==2.25.1
 tqdm==4.56.0
 urllib3==1.26.3
+=======
+regex==2020.11.13
+tqdm==4.56.0
+>>>>>>> githu/master
 Werkzeug==1.0.1
